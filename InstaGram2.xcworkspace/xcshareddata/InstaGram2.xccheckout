@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E874622-F3C3-4A0E-9C0F-3A002FEC17B2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InstaGram2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2B639A16-818E-41C2-A7A2-BEACB5E49E2F</key>
+		<string>https://github.com/jaredfriedman/MySafari.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InstaGram2/InstaGram2.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2B639A16-818E-41C2-A7A2-BEACB5E49E2F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jaredfriedman/MySafari.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2B639A16-818E-41C2-A7A2-BEACB5E49E2F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2B639A16-818E-41C2-A7A2-BEACB5E49E2F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mobile_Makers</string>
+		</dict>
+	</array>
+</dict>
+</plist>
