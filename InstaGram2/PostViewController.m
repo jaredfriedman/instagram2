@@ -14,6 +14,8 @@
 {
     
     __weak IBOutlet UIImageView *myImageView;
+    
+    UIImage *selectedImageFromPicker;
 }
 
 @end
@@ -34,18 +36,32 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
 }
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     
-    UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
-    myImageView.image = image;
+    selectedImageFromPicker= [info valueForKey:UIImagePickerControllerOriginalImage];
+    myImageView.image = selectedImageFromPicker;
     
     [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
 
+- (IBAction)onPostToFeedButton:(id)sender
+{
+    //get picture to post to parse
+    //create pfobject
+    
+     NSData *data = UIImageJPEGRepresentation(selectedImageFromPicker, 0.9);
+    
+    PFObject *postedPhoto = [PFObject objectWithClassName:@"photo"];
+    postedPhoto[@"user"] = [PFUser currentUser];
+    postedPhoto[@"imageFile"] = [PFFile fileWithData:data];
+    [postedPhoto saveInBackground];
+    
+    
+    
+}
 
 @end

@@ -24,6 +24,9 @@
 		F5F31DE418A162DE00ED376A /* InstaGram2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F31DE318A162DE00ED376A /* InstaGram2Tests.m */; };
 		F5F31DF818A1A51700ED376A /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F31DF718A1A51700ED376A /* PostViewController.m */; };
 		F5F31E0118A1B0FF00ED376A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F31E0018A1B0FF00ED376A /* ProfileViewController.m */; };
+		F5F31E0318A28CCD00ED376A /* Testbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F31E0218A28CCD00ED376A /* Testbackground.jpg */; };
+		F5F31E4D18A2AF9D00ED376A /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F31E4C18A2AF9D00ED376A /* PhotoTableViewCell.m */; };
+		F5F31E5318A3127300ED376A /* QuerySearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F31E5218A3127300ED376A /* QuerySearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,11 @@
 		F5F31DF718A1A51700ED376A /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
 		F5F31DFF18A1B0FF00ED376A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		F5F31E0018A1B0FF00ED376A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F5F31E0218A28CCD00ED376A /* Testbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Testbackground.jpg; sourceTree = "<group>"; };
+		F5F31E4B18A2AF9D00ED376A /* PhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
+		F5F31E4C18A2AF9D00ED376A /* PhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
+		F5F31E5118A3127300ED376A /* QuerySearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuerySearchViewController.h; sourceTree = "<group>"; };
+		F5F31E5218A3127300ED376A /* QuerySearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuerySearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,12 +135,17 @@
 				F5F31DC718A162DE00ED376A /* AppDelegate.h */,
 				F5F31DC818A162DE00ED376A /* AppDelegate.m */,
 				F5F31DCA18A162DE00ED376A /* Main.storyboard */,
+				F5F31E5118A3127300ED376A /* QuerySearchViewController.h */,
+				F5F31E5218A3127300ED376A /* QuerySearchViewController.m */,
+				F5F31E4B18A2AF9D00ED376A /* PhotoTableViewCell.h */,
+				F5F31E4C18A2AF9D00ED376A /* PhotoTableViewCell.m */,
 				F5F31DF618A1A51700ED376A /* PostViewController.h */,
 				F5F31DF718A1A51700ED376A /* PostViewController.m */,
 				F5F31DCD18A162DE00ED376A /* ViewController.h */,
 				F5F31DCE18A162DE00ED376A /* ViewController.m */,
 				F5F31DFF18A1B0FF00ED376A /* ProfileViewController.h */,
 				F5F31E0018A1B0FF00ED376A /* ProfileViewController.m */,
+				F5F31E0218A28CCD00ED376A /* Testbackground.jpg */,
 				F5F31DD018A162DE00ED376A /* Images.xcassets */,
 				F5F31DBF18A162DE00ED376A /* Supporting Files */,
 			);
@@ -247,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F31DD118A162DE00ED376A /* Images.xcassets in Resources */,
+				F5F31E0318A28CCD00ED376A /* Testbackground.jpg in Resources */,
 				F5F31DC318A162DE00ED376A /* InfoPlist.strings in Resources */,
 				F5F31DCC18A162DE00ED376A /* Main.storyboard in Resources */,
 			);
@@ -301,7 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F31DF818A1A51700ED376A /* PostViewController.m in Sources */,
+				F5F31E5318A3127300ED376A /* QuerySearchViewController.m in Sources */,
 				F5F31DCF18A162DE00ED376A /* ViewController.m in Sources */,
+				F5F31E4D18A2AF9D00ED376A /* PhotoTableViewCell.m in Sources */,
 				F5F31DC918A162DE00ED376A /* AppDelegate.m in Sources */,
 				F5F31DC518A162DE00ED376A /* main.m in Sources */,
 				F5F31E0118A1B0FF00ED376A /* ProfileViewController.m in Sources */,
